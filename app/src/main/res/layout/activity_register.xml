@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:text="SIGN UP"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/email"
+        android:inputType="textEmailAddress"
+        android:hint="Masukkan Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:hint="Masukkan Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"/>
+    <TextView
+        android:id="@+id/linkSignIn"
+        android:textAlignment="center"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sudah Merdaftar? Sign In Disini"/>
+</LinearLayout>
